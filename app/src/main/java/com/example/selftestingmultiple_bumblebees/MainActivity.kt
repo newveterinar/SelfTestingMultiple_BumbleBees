@@ -6,9 +6,7 @@ import android.widget.Toast
 
 class MainActivity: AppCompatActivity() {
 
-    // Создана ветка Develop
-    // Создана ветка Feature
-    // Начинаем разработку Toast
+    // Начинаем разработку кнопки
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
