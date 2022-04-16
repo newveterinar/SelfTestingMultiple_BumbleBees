@@ -20,5 +20,10 @@ class MainActivity: AppCompatActivity() {
 
         // Создали кнопку
         button = findViewById(R.id.buttonMainActivity)
+
+        // Добавили слушателя к кнопке
+        button.setOnClickListener {
+            Toast.makeText(this, "Нажали на кнопку", Toast.LENGTH_SHORT).show()
+        }
     }
 }
